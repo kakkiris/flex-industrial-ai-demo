@@ -1,0 +1,157 @@
+{
+  "source": "Keystone Lease Sample.pdf",
+  "extractedAt": "2026-05-27T11:38:18.547Z",
+  "model": "claude-opus-4-7",
+  "extractionPath": "text",
+  "latencyMs": 40467,
+  "data": {
+    "tenantName": "Hartwell & Sons Auto Design, Limited Liability Company",
+    "landlordName": "KFP Commerce Drive, LLC",
+    "propertyAddress": "7400 Commerce Dr, Westbrook, TX 77409",
+    "suite": "B4",
+    "leaseStart": "2026-06-01",
+    "leaseEnd": "2029-05-31",
+    "baseRentSchedule": [
+      {
+        "from": "2026-06-01",
+        "to": "2027-05-31",
+        "monthlyRent": 3480.0,
+        "annualRentPerSqft": 0
+      },
+      {
+        "from": "2027-06-01",
+        "to": "2028-05-31",
+        "monthlyRent": 3654.0,
+        "annualRentPerSqft": 0
+      },
+      {
+        "from": "2028-06-01",
+        "to": "2029-05-31",
+        "monthlyRent": 3836.7,
+        "annualRentPerSqft": 0
+      }
+    ],
+    "escalations": {
+      "type": "stepped",
+      "details": "Annual stepped increases of approximately 5% per year over the three-year term as set forth in the rent schedule."
+    },
+    "renewalOptions": [],
+    "tiAllowancePerSqft": null,
+    "freeRentMonths": 0,
+    "securityDeposit": 3480.0,
+    "cam": {
+      "type": "MG",
+      "recoveryMethod": "Modified gross over a 2026 Base Year; Tenant reimburses its Proportionate Share (2.31%) of any increase in Operating Expenses and Taxes above the Base Year amounts.",
+      "caps": "Management fee included in Operating Expenses may not exceed 5% of gross lease receipts for the Building and/or Project."
+    },
+    "useClause": "Warehousing and distribution, plus incidental office use.",
+    "specialProvisions": [
+      "Annual administrative fee of $120.00 due each Lease Year.",
+      "Landlord contributes toward HVAC repairs during the first six months (up to $1,000 per occurrence and $2,000 in total), provided Tenant keeps an HVAC service contract in place.",
+      "Holdover Base Rent is 200% of the Base Rent in effect immediately before expiration.",
+      "Tenant must promptly apply for its Certificate of Use / Business Tax Receipt after taking occupancy; failure to obtain it is treated as a Lease default.",
+      "Requests to assign or sublease carry a $1,000 review fee; any sublease rent above the Lease rent is paid to Landlord.",
+      "Two unreserved parking spaces on a first-come, first-served basis; trucks and trailers may incur additional charges.",
+      "Lease terms are to be kept confidential (Section 36).",
+      "Tenant may not record the Lease or a memorandum of it."
+    ],
+    "rawSections": [
+      {
+        "section": "10. Use",
+        "page": 6,
+        "text": "Tenant may use the Premises solely for warehousing and distribution, with incidental office use. Tenant must operate carefully and safely, avoid waste or overloading of floors and structure, and must not allow odors, smoke, dust, gas, noise or vibration that would be a nuisance to Landlord or other occupants of the Building or Project. Tenant must comply with all applicable laws and codes, and may not store anything outdoors without Landlord's written approval."
+      },
+      {
+        "section": "4. Base Rent Increases",
+        "page": 1,
+        "text": "Monthly Base Rent follows this schedule: June 1, 2026 – May 31, 2027 $3,480.00; June 1, 2027 – May 31, 2028 $3,654.00; June 1, 2028 – May 31, 2029 $3,836.70. Tenant also pays Landlord an administrative fee of $120.00 per Lease Year."
+      },
+      {
+        "section": "7. Operating Expenses and Taxes",
+        "page": 2,
+        "text": "The Base Year is calendar 2026. For every later calendar year, Tenant pays its Proportionate Share of any amount by which that year's Operating Expenses exceed Base Year Operating Expenses, and likewise for Taxes. Operating Expenses cover insurance and common area costs such as landscaping, sweeping, shared utilities, water and sewer, trash, association dues, repairs and replacements, and a management fee capped at 5% of gross receipts."
+      },
+      {
+        "section": "13. Repairs",
+        "page": 5,
+        "text": "Landlord keeps the roof structure, foundation and exterior walls in good repair at its own cost. Tenant, at its own cost, maintains and repairs everything that serves only the Premises, including dock and loading areas, overhead doors, plumbing up to the common connection, fire protection, doors, windows, ceilings, interior and demising walls, and HVAC equipment. While Tenant keeps an HVAC service contract in place, Landlord will contribute up to $1,000.00 per occurrence and $2,000.00 in total toward HVAC repairs."
+      },
+      {
+        "section": "9. Insurance",
+        "page": 4,
+        "text": "Tenant carries commercial general liability coverage of at least $1,000,000 per occurrence and $2,000,000 aggregate, property coverage at replacement cost, workers' compensation, auto liability of at least $1,000,000, umbrella coverage of at least $3,000,000, and, if it handles Hazardous Materials, pollution liability of at least $1,000,000. Landlord is to be an additional insured, with a waiver of subrogation."
+      },
+      {
+        "section": "28. Events of Default / 29. Landlord's Remedies",
+        "page": 8,
+        "text": "A monetary default occurs if Tenant does not pay Base Rent or another amount when due and the failure continues for 5 days after Landlord's written notice. After a default Landlord may pursue the remedies available under the Lease and state law, including recovery of unpaid rent and charges, reletting costs, unamortized improvement costs, and reasonable attorneys' fees."
+      }
+    ],
+    "confidence": {
+      "tenantName": {
+        "level": "high",
+        "reason": "Clearly stated in preamble and signature block."
+      },
+      "landlordName": {
+        "level": "high",
+        "reason": "Clearly stated in preamble and signature block."
+      },
+      "propertyAddress": {
+        "level": "high",
+        "reason": "Explicitly identified in Section 1."
+      },
+      "suite": {
+        "level": "high",
+        "reason": "Suite B4 specified in Section 1."
+      },
+      "leaseStart": {
+        "level": "high",
+        "reason": "Commencement Date of June 1, 2026 stated in Section 2."
+      },
+      "leaseEnd": {
+        "level": "high",
+        "reason": "Termination Date of May 31, 2029 stated in Section 2."
+      },
+      "baseRentSchedule": {
+        "level": "high",
+        "reason": "Schedule explicitly tabulated in Section 4; annualRentPerSqft set to 0 because square footage is not disclosed in the Lease text."
+      },
+      "escalations": {
+        "level": "high",
+        "reason": "Stepped increases each lease year per Section 4."
+      },
+      "renewalOptions": {
+        "level": "high",
+        "reason": "No renewal or extension options provided in the Lease."
+      },
+      "tiAllowancePerSqft": {
+        "level": "high",
+        "reason": "No TI allowance per square foot stated; Landlord provides only specified turn-key items in Section 6."
+      },
+      "freeRentMonths": {
+        "level": "high",
+        "reason": "No free rent provided; first month's rent is due upon execution per Section 3."
+      },
+      "securityDeposit": {
+        "level": "high",
+        "reason": "Section 5 states Security Deposit of $3,480.00."
+      },
+      "cam": {
+        "level": "medium",
+        "reason": "Lease is a modified gross / base-year structure with Tenant paying proportionate share of expenses over Base Year (Section 7); management fee capped at 5% of gross receipts but no other expense caps are specified."
+      },
+      "useClause": {
+        "level": "high",
+        "reason": "Section 10 clearly defines permitted use."
+      },
+      "specialProvisions": {
+        "level": "high",
+        "reason": "Each provision summarized from numbered sections of the Lease."
+      },
+      "rawSections": {
+        "level": "high",
+        "reason": "Section excerpts paraphrased from the Lease with section/page noted."
+      }
+    }
+  }
+}

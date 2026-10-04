@@ -1,0 +1,246 @@
+{
+  "source": "Uptown Realty Advisors OM.pdf",
+  "extractedAt": "2026-05-27T11:42:18.270Z",
+  "model": "claude-opus-4-7",
+  "extractionPath": "vision",
+  "latencyMs": 39161,
+  "data": {
+    "property": {
+      "name": "Riverside Flex Portfolio",
+      "address": "410-418 Riverside Dr, 500-512 Mill St, Fort Calder, TX",
+      "submarket": "Riverside District",
+      "state": "TX",
+      "totalSqft": 32300,
+      "assetType": "Flex/Industrial",
+      "yearBuilt": null,
+      "zipCode": null,
+      "county": null,
+      "hasOffice": true,
+      "clearHeightFt": 12
+    },
+    "units": [
+      {
+        "suite": "B1-01",
+        "sizeSqft": 1370,
+        "tenantName": "Greenloop Recycling LLC",
+        "tenantCategory": "recycling",
+        "leaseType": "MG",
+        "currentRent": 1719.93,
+        "rentPerSqft": 15.07,
+        "leaseStart": "2021-10-06",
+        "leaseEnd": "2024-10-15",
+        "hasPrivateBathroom": null,
+        "rawQuote": "Greenloop Recycling 1,370 ... $15.07 $1,719.93 $20,639.16 ... 10/6/21 10/15/24 5% or CPI",
+        "extractedFromPage": 5
+      },
+      {
+        "suite": "B1-02 A-B",
+        "sizeSqft": 3450,
+        "tenantName": null,
+        "tenantCategory": null,
+        "leaseType": null,
+        "currentRent": null,
+        "rentPerSqft": null,
+        "leaseStart": null,
+        "leaseEnd": null,
+        "hasPrivateBathroom": null,
+        "rawQuote": "B1-02 A-B 3,450 VACANT",
+        "extractedFromPage": 3
+      },
+      {
+        "suite": "B1-02 C",
+        "sizeSqft": 945,
+        "tenantName": "Street Kings Customs LLC",
+        "tenantCategory": "auto services",
+        "leaseType": "MG",
+        "currentRent": 1292.55,
+        "rentPerSqft": 16.41,
+        "leaseStart": "2021-04-08",
+        "leaseEnd": "2023-03-31",
+        "hasPrivateBathroom": null,
+        "rawQuote": "Street Kings Customs 945 ... $16.41 $1,292.55 $15,510.60 ... 4/8/21 3/31/23 4.00%",
+        "extractedFromPage": 5
+      },
+      {
+        "suite": "B1-03",
+        "sizeSqft": 2020,
+        "tenantName": "Pro Marine Boats, LLC",
+        "tenantCategory": "boat services/retail",
+        "leaseType": "MG",
+        "currentRent": 2575.64,
+        "rentPerSqft": 15.3,
+        "leaseStart": "2021-06-01",
+        "leaseEnd": "2024-05-31",
+        "hasPrivateBathroom": null,
+        "rawQuote": "Pro Marine Boats 2,020 ... $15.30 $2,575.64 $30,907.68 ... 6/1/21 5/31/24 4.00%",
+        "extractedFromPage": 5
+      },
+      {
+        "suite": "B1-04 A",
+        "sizeSqft": 2010,
+        "tenantName": "Parts Depot Inc",
+        "tenantCategory": "auto parts",
+        "leaseType": "MG",
+        "currentRent": 2549.69,
+        "rentPerSqft": 15.22,
+        "leaseStart": "2021-08-01",
+        "leaseEnd": "2024-07-31",
+        "hasPrivateBathroom": null,
+        "rawQuote": "Parts Depot 2,010 ... $15.22 $2,549.69 $30,596.28 ... 8/1/21 7/31/24 5.00%",
+        "extractedFromPage": 5
+      },
+      {
+        "suite": "B1-04 B",
+        "sizeSqft": 2650,
+        "tenantName": "Ray's Speed Shop",
+        "tenantCategory": "auto performance/parts",
+        "leaseType": "MG",
+        "currentRent": 3050.78,
+        "rentPerSqft": 13.81,
+        "leaseStart": "2022-02-22",
+        "leaseEnd": "2026-02-21",
+        "hasPrivateBathroom": null,
+        "rawQuote": "Ray's Speed Shop 2,650 ... $13.81 $3,050.78 $36,609.36 ... 2/22/22 2/21/26 5.00% or CPI",
+        "extractedFromPage": 5
+      },
+      {
+        "suite": "B1-05",
+        "sizeSqft": 2210,
+        "tenantName": "Wave Runner Rentals",
+        "tenantCategory": "watercraft rentals",
+        "leaseType": "MG",
+        "currentRent": 2743.85,
+        "rentPerSqft": 14.9,
+        "leaseStart": "2022-02-05",
+        "leaseEnd": "2025-02-04",
+        "hasPrivateBathroom": null,
+        "rawQuote": "Wave Runner Rentals 2,210 ... $14.90 $2,743.85 $32,926.20 ... 2/5/22 2/4/25 5.00% or CPI",
+        "extractedFromPage": 5
+      },
+      {
+        "suite": "B2-01",
+        "sizeSqft": 2860,
+        "tenantName": "Precision Collision, INC",
+        "tenantCategory": "auto collision/repair",
+        "leaseType": null,
+        "currentRent": 7755.71,
+        "rentPerSqft": 32.54,
+        "leaseStart": "2021-10-29",
+        "leaseEnd": "2026-10-28",
+        "hasPrivateBathroom": null,
+        "rawQuote": "Precision Collision 2,860 ... $32.54 $7,755.71 $93,068.52 ... 10/29/21 10/28/26 5% or CPI",
+        "extractedFromPage": 6
+      },
+      {
+        "suite": "B3-01 A",
+        "sizeSqft": 2360,
+        "tenantName": "Saltwater Group, LLC",
+        "tenantCategory": "general industrial tenant",
+        "leaseType": "MG",
+        "currentRent": 2915.82,
+        "rentPerSqft": 14.83,
+        "leaseStart": "2021-07-01",
+        "leaseEnd": "2023-06-30",
+        "hasPrivateBathroom": null,
+        "rawQuote": "Saltwater Group 2,360 ... $14.83 $2,915.82 $34,989.84 ... 7/1/21 6/30/23 5.00%",
+        "extractedFromPage": 7
+      },
+      {
+        "suite": "B3-01 B",
+        "sizeSqft": 2400,
+        "tenantName": "PolyForm Plastics, LLC",
+        "tenantCategory": "light manufacturing/plastics",
+        "leaseType": "MG",
+        "currentRent": 3047,
+        "rentPerSqft": 15.23,
+        "leaseStart": "2022-01-01",
+        "leaseEnd": "2023-12-31",
+        "hasPrivateBathroom": null,
+        "rawQuote": "PolyForm Plastics 2,400 ... $15.23 $3,047.00 $36,564.00 ... 1/1/22 12/31/23 5.00%",
+        "extractedFromPage": 7
+      },
+      {
+        "suite": "B3-01 C",
+        "sizeSqft": 2380,
+        "tenantName": "Inversiones del Sol LLC",
+        "tenantCategory": "distribution/wholesale",
+        "leaseType": "MG",
+        "currentRent": 3289.12,
+        "rentPerSqft": 16.58,
+        "leaseStart": "2022-05-14",
+        "leaseEnd": "2027-05-13",
+        "hasPrivateBathroom": null,
+        "rawQuote": "Inversiones del Sol LLC 2,380 ... $16.58 $3,289.12 $39,469.44 ... 5/14/22 5/13/27 5% or CPI",
+        "extractedFromPage": 7
+      },
+      {
+        "suite": "B4-01",
+        "sizeSqft": 7645,
+        "tenantName": "Marketing Agency (Pending Lease)",
+        "tenantCategory": "marketing agency",
+        "leaseType": null,
+        "currentRent": 10138.79,
+        "rentPerSqft": 15.91,
+        "leaseStart": null,
+        "leaseEnd": null,
+        "hasPrivateBathroom": null,
+        "rawQuote": "B4-01 7,645 PENDING Marketing Agency $10,138.79 $121,665.48 $15.91 ... Pending 5% or CPI 5 Years",
+        "extractedFromPage": 3
+      }
+    ],
+    "confidence": {
+      "property.name": {
+        "level": "high",
+        "reason": "Stated on cover and executive summary."
+      },
+      "property.address": {
+        "level": "high",
+        "reason": "Four addresses listed in portfolio summary on page 2."
+      },
+      "property.submarket": {
+        "level": "high",
+        "reason": "Riverside District stated throughout."
+      },
+      "property.state": {
+        "level": "high",
+        "reason": "Fort Calder, TX stated."
+      },
+      "property.totalSqft": {
+        "level": "high",
+        "reason": "Total RSF 32,300 SF stated in offering summary."
+      },
+      "property.assetType": {
+        "level": "high",
+        "reason": "'Flex/Industrial' stated in offering summary."
+      },
+      "property.yearBuilt": {
+        "level": "low",
+        "reason": "Not stated in OM."
+      },
+      "property.zipCode": {
+        "level": "low",
+        "reason": "Not stated in OM."
+      },
+      "property.county": {
+        "level": "low",
+        "reason": "Not stated explicitly (Calder County implied but not written)."
+      },
+      "property.hasOffice": {
+        "level": "medium",
+        "reason": "Building 1 lists 'A/C + Small Office'; Building 3 lists 'Number of Offices: 3'; Building 4 lists 'Office Space 8' x 8''."
+      },
+      "property.clearHeightFt": {
+        "level": "medium",
+        "reason": "Building 1 & 3 ceiling height 12'; Building 4 16'-30'. Used lower bound 12'."
+      },
+      "units": {
+        "level": "medium",
+        "reason": "Rent roll detail provided per building on pages 3, 5, 6, 7. Some SF allocations between sub-units (e.g. B1-02 A-B vs C) inferred from financial overview."
+      },
+      "units.leaseType": {
+        "level": "medium",
+        "reason": "MG indicated for Building 1 ($19/FT MG) and Building 3 ($19/FT MG); Building 2 and 4 lease type not explicit."
+      }
+    }
+  }
+}

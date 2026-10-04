@@ -1,0 +1,23 @@
+# Railway service configuration.
+#
+# In the Railway dashboard, set the service's Root Directory to the repo root so this
+# file is picked up. ANTHROPIC_API_KEY must be set as a service env var.
+#
+# The start command re-seeds the SQLite DB on every container start so the demo
+# always has a consistent baseline. Filesystem is ephemeral on Railway by
+# default; that is intentional for this demo. For a persistent DB, mount a
+# Railway Volume at /app/db and drop the db:reset step.
+
+[build]
+# Railway uses Railpack as the default builder. Our buildCommand also seeds the
+# SQLite DB before "next build" so server components that query the DB at SSR
+# prerender time (/chat-leasing, /lease-intelligence) can finish their static
+# generation pass.
+buildCommand = "pnpm install --frozen-lockfile && pnpm db:migrate && pnpm db:seed && pnpm build"
+
+[deploy]
+startCommand = "pnpm start:railway"
+healthcheckPath = "/"
+healthcheckTimeout = 60
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3

@@ -1,0 +1,778 @@
+{
+  "source": "Foundry PSA.pdf (Schedule 2) + Foundry Closing Statement.pdf + OM",
+  "extractedAt": "2026-03-09",
+  "note": "Sample pre-extracted ClosingRentRoll for the fictional Foundry deal (1500 Foundry Avenue, Olmstead TX). Tenant names, deposits, and unpaid leasing costs are illustrative. Unit sizes sum to the 76,000 SF building; rents follow a declining $/SF curve by unit size (larger bays rent cheaper). Vacant unit counts are illustrative.",
+  "data": {
+    "propertyCode": "FNDY-1500",
+    "property": {
+      "name": "Foundry Business Center",
+      "address1": "1500 Foundry Avenue",
+      "city": "Olmstead",
+      "state": "TX",
+      "zip": "78475",
+      "county": "Merrick",
+      "submarket": "Olmstead",
+      "totalSf": 76000,
+      "purchasePrice": 17024000,
+      "closingDate": "2026-03-09"
+    },
+    "leases": [
+      {
+        "leaseCode": "f0001",
+        "leaseName": "Brightline Lighting Supply Inc",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A1",
+        "startDate": "2022-09-01",
+        "endDate": "2027-08-31",
+        "securityDeposit": 2533,
+        "units": [
+          {
+            "unitCode": "A1",
+            "sqft": 1470
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 2237
+          },
+          {
+            "code": "EstUtil",
+            "amount": 200
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Brightline Lighting Supply Inc",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0002",
+        "leaseName": "Tidewater Engineering LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Industrial Services",
+        "suite": "A2",
+        "startDate": "2022-12-01",
+        "endDate": "2027-11-30",
+        "securityDeposit": 2549.48,
+        "units": [
+          {
+            "unitCode": "A2",
+            "sqft": 1380
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 2112
+          },
+          {
+            "code": "EstUtil",
+            "amount": 188
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Tidewater Engineering LLC",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0003",
+        "leaseName": "Copper Loop LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Industrial Services",
+        "suite": "A3",
+        "startDate": "2023-04-01",
+        "endDate": "2028-03-31",
+        "securityDeposit": 2570.77,
+        "units": [
+          {
+            "unitCode": "A3",
+            "sqft": 1425
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 2153
+          },
+          {
+            "code": "EstUtil",
+            "amount": 195
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Copper Loop LLC",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0004",
+        "leaseName": "KTR Roofing LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Industrial Services",
+        "suite": "A4",
+        "startDate": "2023-06-01",
+        "endDate": "2028-05-31",
+        "securityDeposit": 2486.16,
+        "units": [
+          {
+            "unitCode": "A4",
+            "sqft": 1340
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 2071
+          },
+          {
+            "code": "EstUtil",
+            "amount": 183
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "KTR Roofing LLC",
+          "phone": "",
+          "email": ""
+        },
+        "notes": "Tenant also pays 95 dollars per month parking per PSA Schedule 2."
+      },
+      {
+        "leaseCode": "f0005",
+        "leaseName": "418 Supply Co LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A5",
+        "startDate": "2023-08-01",
+        "endDate": "2028-07-31",
+        "securityDeposit": 1733.25,
+        "units": [
+          {
+            "unitCode": "A5",
+            "sqft": 1035
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 1606
+          },
+          {
+            "code": "EstUtil",
+            "amount": 141
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "418 Supply Co LLC",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0006",
+        "leaseName": "Bayfront Marine Supply LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A6",
+        "startDate": "2023-02-01",
+        "endDate": "2028-01-31",
+        "securityDeposit": 2001.81,
+        "units": [
+          {
+            "unitCode": "A6",
+            "sqft": 1725
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 2609
+          },
+          {
+            "code": "EstUtil",
+            "amount": 234
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Bayfront Marine Supply LLC",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0007",
+        "leaseName": "Megan Albright",
+        "leaseType": "modgrs",
+        "tenantCategory": "Light Manufacturing",
+        "suite": "A7",
+        "startDate": "2023-10-01",
+        "endDate": "2028-09-30",
+        "securityDeposit": 2186.84,
+        "units": [
+          {
+            "unitCode": "A7",
+            "sqft": 1380
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 2140
+          },
+          {
+            "code": "EstUtil",
+            "amount": 191
+          }
+        ],
+        "billingContact": {
+          "firstName": "Megan",
+          "lastName": "Albright",
+          "company": "",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0008",
+        "leaseName": "HRT Holdings LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A8",
+        "startDate": "2023-12-01",
+        "endDate": "2028-11-30",
+        "securityDeposit": 2253.54,
+        "units": [
+          {
+            "unitCode": "A8",
+            "sqft": 1210
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 1838
+          },
+          {
+            "code": "EstUtil",
+            "amount": 167
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "HRT Holdings LLC",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0009",
+        "leaseName": "Stonebridge Construction Inc",
+        "leaseType": "modgrs",
+        "tenantCategory": "Industrial Services",
+        "suite": "A9",
+        "startDate": "2024-04-01",
+        "endDate": "2029-03-31",
+        "securityDeposit": 719.02,
+        "units": [
+          {
+            "unitCode": "A9",
+            "sqft": 1035
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 1567
+          },
+          {
+            "code": "EstUtil",
+            "amount": 139
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Stonebridge Construction Inc",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0010",
+        "leaseName": "Suncoast Floor Leveling LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Industrial Services",
+        "suite": "A10",
+        "startDate": "2024-02-01",
+        "endDate": "2029-01-31",
+        "securityDeposit": 4472.65,
+        "units": [
+          {
+            "unitCode": "A10",
+            "sqft": 3025
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 4566
+          },
+          {
+            "code": "EstUtil",
+            "amount": 405
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Suncoast Floor Leveling LLC",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0011",
+        "leaseName": "IronForm Fitness LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Light Manufacturing",
+        "suite": "A11",
+        "startDate": "2024-07-01",
+        "endDate": "2029-06-30",
+        "securityDeposit": 8626.05,
+        "units": [
+          {
+            "unitCode": "A11",
+            "sqft": 5180
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 7733
+          },
+          {
+            "code": "EstUtil",
+            "amount": 683
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "IronForm Fitness LLC",
+          "phone": "",
+          "email": ""
+        },
+        "notes": "Unpaid leasing costs assumed by buyer at closing: TI allowance plus leasing commission.",
+        "unpaidLeasingCosts": {
+          "tiAllowance": 1780,
+          "leasingCommission": 14212.8,
+          "note": "TI allowance 1,780.00 plus leasing commission 14,212.80, total 15,992.80, credited to buyer at closing per PSA Schedule 2."
+        }
+      },
+      {
+        "leaseCode": "f0012",
+        "leaseName": "Paloma Home Services LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Industrial Services",
+        "suite": "A12",
+        "startDate": "2023-05-01",
+        "endDate": "2028-04-30",
+        "securityDeposit": 11635.89,
+        "units": [
+          {
+            "unitCode": "A12",
+            "sqft": 7775
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 11367
+          },
+          {
+            "code": "EstUtil",
+            "amount": 1011
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Paloma Home Services LLC",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0013",
+        "leaseName": "Northstar Three LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A13",
+        "startDate": "2024-09-01",
+        "endDate": "2029-08-31",
+        "securityDeposit": 11980.05,
+        "units": [
+          {
+            "unitCode": "A13",
+            "sqft": 6910
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 10170
+          },
+          {
+            "code": "EstUtil",
+            "amount": 900
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Northstar Three LLC",
+          "phone": "",
+          "email": ""
+        },
+        "notes": "Unpaid leasing costs assumed by buyer at closing: estimated landlord work.",
+        "unpaidLeasingCosts": {
+          "landlordWork": 23940,
+          "note": "Estimated cost of landlord work 23,940.00, credited to buyer at closing per PSA Schedule 2."
+        }
+      },
+      {
+        "leaseCode": "f0014",
+        "leaseName": "Harborline Distribution Co",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A14",
+        "startDate": "2022-11-01",
+        "endDate": "2027-10-31",
+        "securityDeposit": 24085.95,
+        "units": [
+          {
+            "unitCode": "A14",
+            "sqft": 13820
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 19083
+          },
+          {
+            "code": "EstUtil",
+            "amount": 1690
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Harborline Distribution Co",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0015",
+        "leaseName": "Rapid Hose & Hydraulic Inc",
+        "leaseType": "modgrs",
+        "tenantCategory": "Industrial Services",
+        "suite": "A15",
+        "startDate": "2023-07-01",
+        "endDate": "2028-06-30",
+        "securityDeposit": 1986.54,
+        "units": [
+          {
+            "unitCode": "A15",
+            "sqft": 1555
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 2378
+          },
+          {
+            "code": "EstUtil",
+            "amount": 216
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Rapid Hose & Hydraulic Inc",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0016",
+        "leaseName": "Derek Holloway",
+        "leaseType": "modgrs",
+        "tenantCategory": "Light Manufacturing",
+        "suite": "A16",
+        "startDate": "2024-01-01",
+        "endDate": "2028-12-31",
+        "securityDeposit": 2718.98,
+        "units": [
+          {
+            "unitCode": "A16",
+            "sqft": 1555
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 2420
+          },
+          {
+            "code": "EstUtil",
+            "amount": 215
+          }
+        ],
+        "billingContact": {
+          "firstName": "Derek",
+          "lastName": "Holloway",
+          "company": "",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0017",
+        "leaseName": "SecureLine Systems Inc",
+        "leaseType": "modgrs",
+        "tenantCategory": "Industrial Services",
+        "suite": "A17",
+        "startDate": "2024-05-01",
+        "endDate": "2029-04-30",
+        "securityDeposit": 1197.2,
+        "units": [
+          {
+            "unitCode": "A17",
+            "sqft": 1295
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 1989
+          },
+          {
+            "code": "EstUtil",
+            "amount": 176
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "SecureLine Systems Inc",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0018",
+        "leaseName": "Rachel Whitmore",
+        "leaseType": "modgrs",
+        "tenantCategory": "Light Manufacturing",
+        "suite": "A18",
+        "startDate": "2023-09-01",
+        "endDate": "2028-08-31",
+        "securityDeposit": 4233.63,
+        "units": [
+          {
+            "unitCode": "A18",
+            "sqft": 2590
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 3987
+          },
+          {
+            "code": "EstUtil",
+            "amount": 350
+          }
+        ],
+        "billingContact": {
+          "firstName": "Rachel",
+          "lastName": "Whitmore",
+          "company": "",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0019",
+        "leaseName": "Gulfaire Distributors LLC",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A19",
+        "startDate": "2023-01-01",
+        "endDate": "2027-12-31",
+        "securityDeposit": 16218.59,
+        "units": [
+          {
+            "unitCode": "A19",
+            "sqft": 10365
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 14695
+          },
+          {
+            "code": "EstUtil",
+            "amount": 1288
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Gulfaire Distributors LLC",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0020",
+        "leaseName": "Cypress Community Bank",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A20",
+        "startDate": "2024-08-01",
+        "endDate": "2029-07-31",
+        "securityDeposit": 4050.76,
+        "units": [
+          {
+            "unitCode": "A20",
+            "sqft": 2420
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 3655
+          },
+          {
+            "code": "EstUtil",
+            "amount": 328
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Cypress Community Bank",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0021",
+        "leaseName": "Evergreen Trade International Corp",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A21",
+        "startDate": "2023-11-01",
+        "endDate": "2028-10-31",
+        "securityDeposit": 5691.29,
+        "units": [
+          {
+            "unitCode": "A21",
+            "sqft": 3455
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 5318
+          },
+          {
+            "code": "EstUtil",
+            "amount": 471
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Evergreen Trade International Corp",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "leaseCode": "f0022",
+        "leaseName": "Swiftlane Route Inc",
+        "leaseType": "modgrs",
+        "tenantCategory": "Distribution / Fulfillment",
+        "suite": "A22",
+        "startDate": "2024-06-01",
+        "endDate": "2029-05-31",
+        "securityDeposit": 3321.8,
+        "units": [
+          {
+            "unitCode": "A22",
+            "sqft": 1900
+          }
+        ],
+        "charges": [
+          {
+            "code": "Rent",
+            "amount": 2905
+          },
+          {
+            "code": "EstUtil",
+            "amount": 258
+          }
+        ],
+        "billingContact": {
+          "firstName": "",
+          "lastName": "",
+          "company": "Swiftlane Route Inc",
+          "phone": "",
+          "email": ""
+        }
+      }
+    ],
+    "vacantUnits": [
+      {
+        "unitCode": "B1",
+        "sqft": 580
+      },
+      {
+        "unitCode": "B2",
+        "sqft": 495
+      },
+      {
+        "unitCode": "B3",
+        "sqft": 560
+      },
+      {
+        "unitCode": "B4",
+        "sqft": 520
+      }
+    ]
+  }
+}

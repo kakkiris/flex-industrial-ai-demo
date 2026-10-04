@@ -1,0 +1,40 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database (local SQLite for demos; glob also covers Finder duplicate copies like "kfp-demo 2.db")
+db/kfp-demo*.db
+db/kfp-demo*.db-journal
+db/kfp-demo*.db-wal
+db/kfp-demo*.db-shm
+
+# Runtime PDF uploads (never committed)
+uploads/
+
+# Next.js / Node
+.next/
+out/
+build/
+node_modules/
+*.tsbuildinfo
+next-env.d.ts
+
+# Test artifacts
+coverage/
+.vitest/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Source documents (never committed)
+*.pdf
+!tests/fixtures/*.pdf
+*.xls
+*.xlsx
+*.docx

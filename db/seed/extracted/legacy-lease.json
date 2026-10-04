@@ -1,0 +1,168 @@
+{
+  "source": "Legacy Lease Sample.pdf",
+  "extractedAt": "2026-05-27T11:38:58.879Z",
+  "model": "claude-opus-4-7",
+  "extractionPath": "vision",
+  "latencyMs": 40303,
+  "data": {
+    "tenantName": "RestorePro, LLC",
+    "landlordName": "Lakeside Holdings LLC",
+    "propertyAddress": "2150 Industrial Ave, Larkspur, TX 77458",
+    "suite": "Unit 2150",
+    "leaseStart": "2023-08-01",
+    "leaseEnd": "2026-07-31",
+    "baseRentSchedule": [
+      {
+        "from": "2023-08-01",
+        "to": "2024-07-31",
+        "monthlyRent": 14650.0,
+        "annualRentPerSqft": 0
+      },
+      {
+        "from": "2024-08-01",
+        "to": "2025-07-31",
+        "monthlyRent": 15675.5,
+        "annualRentPerSqft": 0
+      },
+      {
+        "from": "2025-08-01",
+        "to": "2026-07-31",
+        "monthlyRent": 16772.79,
+        "annualRentPerSqft": 0
+      }
+    ],
+    "escalations": {
+      "type": "stepped",
+      "details": "Annual stepped increases of approximately 7% per year. Landlord reserves the right to charge the greater of the percentage increase in the lease, but at no time shall the annual increase be less than seven (7) percent."
+    },
+    "renewalOptions": [],
+    "tiAllowancePerSqft": null,
+    "freeRentMonths": 0,
+    "securityDeposit": 31204.5,
+    "cam": {
+      "type": "NNN",
+      "recoveryMethod": "Lessee pays proportionate share of any increase in Real Estate Taxes, EMS charges, and Insurance over the 2022 base year. Tenant is directly responsible for water, trash, electric utilities.",
+      "caps": null
+    },
+    "useClause": "All legal business related to RestorePro LLC – restoration contents, cleaning & storage, and for no other purpose.",
+    "specialProvisions": [
+      "Tenant improvement allowance up to $4,750.00 payable upon completion of office buildout per Exhibit A",
+      "Personal guarantee by the tenant's principal",
+      "Tenant required to enroll in Paylease/Zego payment processing within 90 days of occupancy ($10 fee per check payment)",
+      "Lessor may terminate with 120 days notice if building converted to condos or property redeveloped/repurposed",
+      "Security deposit equal to 2x current rental rate including taxes/charges; subject to change at Landlord's discretion",
+      "Holdover rent at 400% of rent",
+      "the state landlord-tenant statute cure period reduced from 15 days to 7 days for non-monetary breaches",
+      "HVAC repairs and replacements are Tenant's responsibility",
+      "Tenant required to maintain AC service contract with minimum 4 full-service calls per year",
+      "Lease space accepted 'as-is, where-is'",
+      "No dogs permitted on premises",
+      "Tenant must change all locks upon lease signing",
+      "Total due at signing: $46,806.75 ($31,204.50 deposit + $15,602.25 first month)",
+      "Landlord retains free/reduced rent if lease terminated due to Tenant default"
+    ],
+    "rawSections": [
+      {
+        "section": "10.k Use Clause",
+        "page": 9,
+        "text": "That the Lessee shall use and occupy the Premises for the purpose of all legal business related to RestorePro LLC – restoration contents, cleaning & storage, and for no other purpose. Tenant MUST obtain a business tax license within 30 days of occupancy or Landlord shall have the right to terminate lease."
+      },
+      {
+        "section": "3. Amount of Rent and Manner of Payment",
+        "page": 1,
+        "text": "The Lessee shall pay unto the Lessor monthly in advance ON THE FIRST OF EVERY MONTH as follows: Aug 1 2023 – Jul 31 2024: Base $14,650.00 + Tax $952.25 = $15,602.25/Mo; Aug 1 2024 – Jul 31 2025: Base $15,675.50 + Tax $1,018.91 = $16,694.41/Mo; Aug 1 2025 – Jul 31 2026: Base $16,772.79 + Tax $1,090.23 = $17,863.02/Mo"
+      },
+      {
+        "section": "3.d.i Real Estate Taxes / 7.e Insurance",
+        "page": 2,
+        "text": "REAL ESTATE TAXES: In regard to the demised premises, Lessee agrees to pay its proportionate share of any increase in the Real Estate Tax and EMS charges that may occur... Base year to be 2022. ... Lessee shall pay to Lessor, together with each installment of Rent, all sales or rent taxes from time to time imposed in connection with rents paid by Lessee under this Lease."
+      },
+      {
+        "section": "6.a / Maintenance (interior repairs)",
+        "page": 3,
+        "text": "That it will keep the interior portion of the Demised Premises and the improvements placed therein in a good state of repair, and it will be responsible for all repairs including the painting, maintenance and interior repairs to the interior of the building including all windows, doors and openings, all electrical, heating, plumbing, air conditioning and other systems... All HVAC repairs and replacements are Tenants responsibility."
+      },
+      {
+        "section": "7. Indemnity and Insurance",
+        "page": 4,
+        "text": "Lessee will maintain general comprehensive public liability insurance, with respect to the Demised Premises and its appurtenances, naming Lessor and Lessee as insured, in amounts not less than One Million ($1,000,000.00) Dollars with respect to injuries to any one person and not less than One Million ($1,000,000.00) Dollars with respect to injuries suffered in any one accident, and not less than One Million ($1,000,000.00) Dollars with respect to property. All tenants are required to insure their contents and store materials and equipment off the floor in the event of flooding. Flood insurance is recommended..."
+      },
+      {
+        "section": "8.d Default",
+        "page": 5,
+        "text": "DEFAULT: If Tenant fails to keep any of Tenant's agreements or obligations contained in this Lease or obligations imposed on Tenant by state law, Landlord shall be governed by the provisions of the state landlord-tenant statutes except that the amount of time in which Tenant has to cure for material breaches other than non-payment of rent, as provided in the state landlord-tenant statute, is changed from 15 days to 7 days. All non-monetary notices, including 7, 10, 15-day Notices to Cure- shall be delivered via email."
+      },
+      {
+        "section": "11. Special Clauses",
+        "page": 10,
+        "text": "SPECIAL CLAUSES: Upon signing of this Lease agreement, a Security Deposit in the amount of $31,204.50, along with first month's rent for August 2023 in the amount of $15,602.25 for a total of $46,806.75, will be due and payable. Cashier's check or money order to Lakeside Holdings LLC. In consideration of this Lease, Landlord shall provide Tenant with a tenant improvement allowance in an amount not to exceed $4,750.00 payable upon completion of construction of office space as per attached Exhibit A..."
+      }
+    ],
+    "confidence": {
+      "tenantName": {
+        "level": "high",
+        "reason": "Clearly stated as RestorePro, LLC"
+      },
+      "landlordName": {
+        "level": "high",
+        "reason": "Clearly identified as Lakeside Holdings LLC"
+      },
+      "propertyAddress": {
+        "level": "high",
+        "reason": "Address stated as 2150 Industrial Ave Larkspur TX 77458"
+      },
+      "suite": {
+        "level": "medium",
+        "reason": "Move-in sheet lists Suite/Bay Unit #2150; lease body only references address"
+      },
+      "leaseStart": {
+        "level": "high",
+        "reason": "August 1, 2023 explicitly stated"
+      },
+      "leaseEnd": {
+        "level": "high",
+        "reason": "July 31, 2026 explicitly stated"
+      },
+      "baseRentSchedule": {
+        "level": "high",
+        "reason": "Three explicit annual periods stated; sqft not provided so annualRentPerSqft set to 0"
+      },
+      "escalations": {
+        "level": "high",
+        "reason": "Annual stepped increases with minimum 7% floor per Additional Special Clauses"
+      },
+      "renewalOptions": {
+        "level": "high",
+        "reason": "No renewal options identified in the lease"
+      },
+      "tiAllowancePerSqft": {
+        "level": "low",
+        "reason": "Lump sum $4,750 allowance provided; sqft not stated so per-sqft cannot be calculated"
+      },
+      "freeRentMonths": {
+        "level": "high",
+        "reason": "No free rent referenced; lease specifies recovery of free rent if defaulted"
+      },
+      "securityDeposit": {
+        "level": "high",
+        "reason": "$31,204.50 explicitly stated"
+      },
+      "cam": {
+        "level": "medium",
+        "reason": "Lease is structured as modified NNN with base year 2022 pass-throughs for taxes and insurance; tenant pays own utilities; classified as NNN"
+      },
+      "useClause": {
+        "level": "high",
+        "reason": "Explicitly stated in Section 10.k"
+      },
+      "specialProvisions": {
+        "level": "high",
+        "reason": "Extracted directly from Sections 11 and 12 and other clauses"
+      },
+      "rawSections": {
+        "level": "high",
+        "reason": "Sections quoted verbatim from lease"
+      }
+    }
+  }
+}

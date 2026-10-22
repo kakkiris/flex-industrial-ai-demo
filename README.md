@@ -4,6 +4,10 @@ A product case study: five working AI prototypes built for a commercial real est
 
 > **Anonymized.** The client, people, places, properties, tenants, brokers, and deal figures in this repo are fictional or perturbed. The "Marisol" region and every town and county in it are invented. "Keystone Flex Partners" (KFP) is a stand-in for the real client. Source documents (offering memoranda, leases, rent rolls, interview transcripts) are not included; the seed data is pre-extracted, fictionalized JSON.
 
+## My role
+
+I worked from the recordings of every discovery call, turned what I heard into demo specs with acceptance criteria, made the product calls during the build, directed Claude Code through each build session, and led the validation walkthrough with the client. A colleague ran the discovery calls and wrote the synthesis the specs drew on.
+
 ## The problem
 
 KFP owns and operates a few dozen multi-tenant flex warehouse properties (1,000â€“5,000 sq ft units leased to contractors, e-commerce, and light-manufacturing tenants). The portfolio grew on top of Excel, email, and a property-management system of record (Yardi). Discovery surfaced the same pattern across teams: high-value documents (broker OMs, leases, closing rent rolls) arrive as PDFs and are re-keyed by hand, and the knowledge inside them is hard to query later.
@@ -18,7 +22,7 @@ KFP owns and operates a few dozen multi-tenant flex warehouse properties (1,000â
 | A5 | **Acquisition Lease Bulk-Load** | After a closing, every in-place lease is keyed in one at a time. The closing rent roll fans out into the six linked Yardi commercial ETL tables in one load. |
 | L1 | **Website Lead Qualification** | Inbound leasing inquiries are unqualified and slow to triage. A structured intake form (default) or conversational chat qualifies the lead and matches available units. |
 
-Each demo has a **current vs. proposed** toggle, so a stakeholder can compare today's manual workflow with the AI-assisted one on the same screen.
+Each demo shows today's manual workflow beside the AI-assisted one on the same screen, so a stakeholder can compare them. The leasing qualification demo also keeps both of its versions, the original proposal and the reframed one, runnable behind a toggle.
 
 ## Product process (where to look)
 
@@ -31,7 +35,7 @@ Each demo has a **current vs. proposed** toggle, so a stakeholder can compare to
 
 Some decisions worth noting:
 - **Scope cuts from client feedback.** A property-onboarding checklist demo was dropped after the validation walkthrough: the deal process is human-owned and unpredictable, so a checklist is an aid, not the driver. A voice cold-calling agent was removed earlier at the client's request. Both decisions are recorded in the specs.
-- **Trust is built in.** Every extracted field carries a confidence level and a source citation (page and quote), so reviewers verify instead of re-keying.
+- **Trust is built in.** Every extracted field carries a confidence level with a reason. Rent comps carry the page and quote they came from, and lease answers cite the sections they draw on, so reviewers verify instead of re-keying.
 - **LLM-free seeding.** Document extraction runs once offline (`scripts/pre-extract.ts`), and the demo seeds from committed JSON, so it is reproducible and costs nothing to run.
 
 ## Tech
